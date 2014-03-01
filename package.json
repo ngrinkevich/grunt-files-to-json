@@ -1,8 +1,12 @@
 {
   "name": "grunt-files-to-json",
   "version": "0.1.0",
-  "description": "Simple plugin to create a list of files",
-  "repository": "",
+  "description": "Simple grunt plugin to create a list of files and write to a json file",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ngrinkevich/grunt-files-to-json.git"
+  },
+  "homepage": "https://github.com/ngrinkevich/grunt-files-to-json",
   "bugs": "issues",
   "author": {
     "name": "Nik G",
@@ -17,7 +21,8 @@
   },
   "licenses": [
     {
-      "type": "MIT"
+      "type": "MIT",
+      "url": "https://github.com/ngrinkevich/grunt-files-to-json/blob/master/LICENSE-MIT"
     }
   ],
   "devDependencies": {
