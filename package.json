@@ -1,6 +1,6 @@
 {
   "name": "grunt-files-to-json",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple grunt plugin to create a list of files and write to a json file",
   "repository": {
     "type": "git",
