@@ -1,6 +1,6 @@
 # grunt-files-to-json
 
-> Simple plugin to create a list of files
+> Simple grunt plugin to create a list of files and write it to a json file
 
 ## Getting Started
 This plugin requires Grunt.
