@@ -1,0 +1,34 @@
+{
+  "name": "grunt-files-to-json",
+  "version": "0.1.0",
+  "description": "Simple plugin to create a list of files",
+  "repository": "",
+  "bugs": "issues",
+  "author": {
+    "name": "Nik G",
+    "email": "nikgrinkevich@gmail.com"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt": "~0.4.0rc2",
+    "jshint-stylish": "~0.1.3",
+    "load-grunt-tasks": "~0.2.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
