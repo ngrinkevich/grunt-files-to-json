@@ -62,11 +62,11 @@ grunt.initConfig({
 #### Example output file
 
 ```json
-{
-  "theme_1": "/themes/default/8909873.style.css",
-  "theme_2": "/themes/comso/8934573.style.css",
-  "theme_3": "/themes/minimal/8923473.style.css",
-}
+{ "results": [
+      {"name":"theme_1", "url":"/themes/default/8909873.style.css"},
+      {"name":"theme_2", "url":"/themes/comso/8934573.style.css"},
+      {"name":"theme_3", "url":"/themes/minimal/8923473.style.css"}
+]}
 ```
 
 ## Running the tests
