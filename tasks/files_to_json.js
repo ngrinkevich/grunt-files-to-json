@@ -16,7 +16,7 @@ module.exports = function (grunt) {
       name: 'item'
     });
 
-    var output = '{';
+    var output = '{\"results\":[';
 
     // Iterate over all specified file groups.
     this.files.forEach(function(f) {
@@ -29,9 +29,9 @@ module.exports = function (grunt) {
           return true;
         }
       }).map(function(filepath, index) {
-        return '\"'+options.name+'_'+(index+1)+'\":\"' + filepath.substring(filepath.indexOf("/")) + '\"';
-      }).join(grunt.util.normalizelf(', '));
-      output += '}';
+        return '{\"name\":\"'+options.name+'_'+(index+1)+'\", \"url\":\"' + filepath.substring(filepath.indexOf("/")) + '\"';
+      }).join(grunt.util.normalizelf('}, '));
+      output += '}]}';
 
       // Write the destination file.
       grunt.file.write(f.dest, output);              
@@ -39,3 +39,5 @@ module.exports = function (grunt) {
   });
 
 };
+
+
