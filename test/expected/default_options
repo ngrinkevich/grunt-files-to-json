@@ -1,1 +1,1 @@
-{"item_1":"/fixtures/testing", "item_2":"/fixtures/123"}
+{"results":[{"name":"item_1", "url":"/fixtures/testing"}, {"name":"item_2", "url":"/fixtures/123"}]}
